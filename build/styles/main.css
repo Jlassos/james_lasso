@@ -1,0 +1,75 @@
+body {
+  background-color: #404040;
+  margin: auto;
+  font-size: 1em; }
+
+h1 {
+  color: darkgray; }
+
+.main-page {
+  text-align: center;
+  padding-top: 4em;
+  font-size: 2em; }
+  .main-page .name {
+    padding-top: 0.2em;
+    color: cornflowerblue;
+    font-family: Consolas; }
+  .main-page .title {
+    font-family: Consolas;
+    color: #3dcf3e; }
+
+.main-nav {
+  position: relative;
+  overflow: hidden;
+  background: #111111;
+  z-index: 999; }
+  .main-nav a {
+    color: steelblue;
+    font-family: Consolas;
+    text-transform: uppercase;
+    text-decoration: none; }
+  .main-nav .link {
+    float: left;
+    width: 20%;
+    max-width: 100px;
+    font-size: 1.5em;
+    line-height: 4em;
+    text-align: center;
+    border: none; }
+
+.page-title h1 {
+  text-align: center;
+  font-family: Consolas;
+  color: steelblue;
+  padding-bottom: 1em; }
+
+.section {
+  text-align: center;
+  margin-bottom: 4em;
+  overflow: hidden;
+  background: #4d4d4d;
+  border-radius: 5px; }
+  .section .text-left {
+    float: left;
+    padding-top: 2.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 20px;
+    font-size: 3em;
+    font-family: Consolas;
+    color: whitesmoke; }
+  .section .image-left {
+    vertical-align: top;
+    float: left; }
+  .section .text-right {
+    float: right;
+    padding-top: 2.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 20px;
+    font-size: 3em;
+    font-family: Consolas;
+    color: whitesmoke; }
+  .section .image-right {
+    vertical-align: top;
+    float: right; }
