@@ -96,3 +96,17 @@ a:focus {
   padding-top: 2em; }
   .social-media img {
     padding: 1em; }
+
+/* -------------------------------------
+project page
+--------------------------------------*/
+.project-thumbnail img {
+  width: 300px;
+  height: auto; }
+
+.project-info {
+  padding-left: 2em; }
+  .project-info .project-title {
+    font-size: 2em; }
+  .project-info .project-description {
+    color: white; }
