@@ -13,9 +13,9 @@ h1 {
   .main-page .name {
     padding-top: 0.2em;
     color: cornflowerblue;
-    font-family: Consolas; }
+    font-family: Inconsolata, sans-serif; }
   .main-page .title {
-    font-family: Consolas;
+    font-family: Inconsolata, sans-serif;
     color: #3dcf3e; }
 
 .main-nav {
@@ -25,7 +25,7 @@ h1 {
   z-index: 999; }
   .main-nav a {
     color: steelblue;
-    font-family: Consolas;
+    font-family: Inconsolata, sans-serif;
     text-transform: uppercase;
     text-decoration: none; }
   .main-nav .link {
@@ -39,7 +39,7 @@ h1 {
 
 .page-title h1 {
   text-align: center;
-  font-family: Consolas;
+  font-family: Inconsolata, sans-serif;
   color: steelblue;
   padding-bottom: 1em; }
 
@@ -56,7 +56,7 @@ h1 {
     padding-right: 2em;
     margin-bottom: 20px;
     font-size: 1.5em;
-    font-family: Consolas;
+    font-family: Inconsolata, sans-serif;
     color: whitesmoke; }
   .section .image-left {
     vertical-align: top;
@@ -68,7 +68,7 @@ h1 {
     padding-right: 2em;
     margin-bottom: 20px;
     font-size: 1.5em;
-    font-family: Consolas;
+    font-family: Inconsolata, sans-serif;
     color: whitesmoke; }
   .section .image-right {
     vertical-align: top;

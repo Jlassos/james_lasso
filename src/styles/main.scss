@@ -1,3 +1,5 @@
+$primary-font: Inconsolata, sans-serif;
+
 body {
   background-color: #404040;
   margin: auto;
@@ -16,10 +18,10 @@ h1 {
   .name {
     padding-top: 0.2em;
     color: cornflowerblue;
-    font-family: Consolas;
+    font-family: $primary-font;
   }
   .title {
-    font-family: Consolas;
+    font-family: $primary-font;
     color: #3dcf3e;
   }
 }
@@ -32,7 +34,7 @@ h1 {
 
   a {
     color: steelblue;
-    font-family: Consolas;
+    font-family: $primary-font;
     text-transform: uppercase;
     text-decoration: none;
   }
@@ -51,7 +53,7 @@ h1 {
 .page-title {
   h1 {
     text-align: center;
-    font-family: Consolas;
+    font-family: $primary-font;
     color: steelblue;
     padding-bottom: 1em;
   }
@@ -70,7 +72,7 @@ h1 {
     padding-right: 2em;
     margin-bottom: 20px;
     font-size: 1.5em;
-    font-family: Consolas;
+    font-family: $primary-font;
     color: whitesmoke;
   }
   .image-left {
@@ -84,7 +86,7 @@ h1 {
     padding-right: 2em;
     margin-bottom: 20px;
     font-size: 1.5em;
-    font-family: Consolas;
+    font-family: $primary-font;
     color: whitesmoke;
   }
   .image-right {
