@@ -122,3 +122,27 @@ a:focus {
     padding: 1em;
   }
 }
+
+/* -------------------------------------
+project page
+--------------------------------------*/
+.project-thumbnail {
+  img {
+    width: 300px;
+    height: auto;
+  }
+}
+
+
+.project-info {
+  padding-left: 2em;
+
+  .project-title {
+    font-size: 2em;
+  }
+
+  .project-description {
+    color: white;
+  }
+}
+
